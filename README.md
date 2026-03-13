@@ -23,14 +23,13 @@ Bundle your CLI script:
 npx esbuild cli.js --bundle --platform=node --format=cjs --outfile=bundle.js
 ```
 
-Then build the single-executable using Node’s SEA API:
+Then build the single-executable using Node's SEA API:
 
 ```bash
 node --build-sea sea-config.json
 ```
 
-Make sure to include the `mathmaps` folder or list the JSON files as assets in your `sea-config.json`
-
+Make sure to include the `mathmaps` folder at root when running the executable
 
 ## Usage
 
