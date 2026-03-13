@@ -1,0 +1,8 @@
+{
+  "main": "./bundle.js",
+  "mainFormat": "commonjs",
+  "output": "./latex2words/cli.exe",
+  "useSnapshot": false,
+  "useCodeCache": false,
+  "execArgv": ["--no-warnings"]
+}

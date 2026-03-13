@@ -1,0 +1,25 @@
+{
+  "name": "latex2words",
+  "version": "1.0.0",
+  "description": "Converts Latex to clearspeech using SRE.",
+  "keywords": [
+    "Latex",
+    "SRE",
+    "clearspeech",
+    "TTS"
+  ],
+  "license": "ISC",
+  "author": "Gabriel Berthel",
+  "type": "commonjs",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "katex": "^0.16.38",
+    "speech-rule-engine": "^5.0.0-beta.6"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.4"
+  }
+}
