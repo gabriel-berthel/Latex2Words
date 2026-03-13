@@ -2,7 +2,7 @@
 
 This project builds a standalone executable for converting LaTeX expressions into speech as part of a TTS pipeline.  
 
-It uses **KaTeX** to convert LaTeX into MathML, and then **Speech Rule Engine (SRE)** to generate spoken output.  
+It uses **KaTeX** (MIT) to convert LaTeX into MathML, and then **Speech Rule Engine (SRE)**  (Apache 2.0) to generate spoken output.  
 
 ## Why the “hack”
 
