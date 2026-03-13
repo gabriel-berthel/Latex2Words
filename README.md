@@ -35,7 +35,7 @@ Make sure to include the `mathmaps` folder or list the JSON files as assets in y
 ## Usage
 
 ```bash
-./latex2clearspeak.exe "1+1"
+./latex2words/cli.exe "\frac{a}{b}"
 ```
 
 This will output the spoken equivalent of the LaTeX expression.
