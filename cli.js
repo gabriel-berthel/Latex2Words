@@ -9,7 +9,7 @@ const katex = require("katex");
 const sre = require('speech-rule-engine/cjs/common/system.js');
 
 
-// Latex to clearspeech conversion.
+// Latex to speech conversion.
 function cleanLatex(latex) {
   return latex
     .replace(/\s+/g, ' ')
@@ -17,7 +17,6 @@ function cleanLatex(latex) {
 }
 
 async function latexToSpeech(latex) {
-
   const cleaned = cleanLatex(latex);
 
   await sre.setupEngine({
